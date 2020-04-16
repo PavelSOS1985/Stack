@@ -11,12 +11,10 @@ public class Stack <T> {
     }
 
     public int size() {
-        // размер текущего стека
         return stack.size();
     }
 
     public T pop() {
-        // ваш код
         if (stack.size() == 0) {
             return null;  // если стек пустой
         }
@@ -26,12 +24,10 @@ public class Stack <T> {
     }
 
     public void push(T val) {
-        // ваш код
         stack.add(val);
     }
 
     public T peek() {
-        // ваш код
         if (stack.size() == 0) {
             return null;  // если стек пустой
         }
